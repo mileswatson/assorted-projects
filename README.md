@@ -46,7 +46,7 @@ I think I have a separate repo explaining this in greater detail? Anyway, it is 
 ## Travelling Salesman (Javascript)
 Solves a random travelling salesman problem. Uses my own algorithm that swaps edges (because something something triangle inequality something something). I later found out that this was the well known 2-opt algorithm.
 
-## TCS-Oxford Computing Challenge mentorship stuff
+## TCS-Oxford Computing Challenge mentorship stuff (Assorted)
 Some random stuff I wrote to solve problems in preparation for the BIO. Some of the questions were quite specialised, the solutions may not make much sense on its own.
 [Knights Tour Problem in Swift](https://repl.it/@teamproject/swift-knights-tour)
 [Wave Simulation Thing](https://repl.it/@teamproject/go-wave-simulation)
@@ -54,19 +54,42 @@ Some random stuff I wrote to solve problems in preparation for the BIO. Some of 
 [Heap Optimised Dijkstra's Shortest Path](https://repl.it/@teamproject/go-shortest-paths)
 [Above but in python](https://repl.it/@teamproject/py-shortest-paths)
 
-## PoC Blockchain
+## BrainFuckSimplified (Python)
+Made a language that allows you to write concise and optimised Brainfuck code, because I needed more headaches in my life. Not sure how it worked, but it did.
+
+[Demo](https://repl.it/@teamproject/CompileBFS)
+
+## Morse Code Radio (Python)
+Made a thing to communicate using radio between to RPis. Not sure where the recieving code is, but the sending code works:
+
+[Lenk](https://repl.it/@teamproject/morse-radio)
+
+## A-Star Search Algorithm
+Self explanatory...
+[Lank](https://repl.it/@teamproject/aStar)
+
+## PoC Blockchain (Go)
 Some really detailed comments here. Not really sure what the aim of this was, but it outputs true so it probably works?
 [See for your self](https://repl.it/@teamproject/go-blockchain)
 
+## RSA Encryption from Scratch (Java)
+An implimentation of an RSA key generation, encryption, and decryption algorithms. My first Java program.
 
-## CompressionEncryptionHashing
+[Its behind you](https://repl.it/@mileswatson/java-crypter)
+
+## GCSE Sort/Search Algorithms
+[See them here](https://repl.it/@teamproject/searchSort)
+
+## CompressionEncryptionHashing (Python)
 Not really sure what this was, something about compression, encrypting it, and then hashing it I think.
 
 [Lonk](https://repl.it/@mileswatson/CompressionEncryptionHashing)
 
-## Compiler
-POCCL = Proof Of Concept Compiled Language. Beginning of explanation in a separate repo.
+## Game Of Life (Python)
+[Here](https://repl.it/@teamproject/GameOfLife)
 
+## Compiler (Python)
+POCCL = Proof Of Concept Compiled Language. Beginning of explanation in a separate repo.
 
 [Not finished yet, please don't judge.](https://repl.it/@mileswatson/POCCL)
 
