@@ -4,9 +4,17 @@ Here are some highlights of my programming history...
 
 Instead of uploading all my code, I have linked to a fantastic online IDE called [repl.it](https://repl.it/).
 
-## My School CS Project
+## My School CS Project (Python)
 Can be found on my Github under python-card-game.
 Is the only thing on this list with complete functionality and a GUI.
+
+## My Current Project (Python)
+I am currently working on a proof of concept decentralised social media.
+It uses the Pycryptodome library, and is very secure. It solves the problem of data privacy, the responsibility of social media sites for the user generated content, the searchability of social media (can affect job applications etc.), and reduce the likelihood of stalkers finding someone based off a name.
+
+The idea is based off the Bitcoin whitepaper's method of generating public IDs: user generated private key -> public key, public key->exported public key as bytes, exported public key --hash-> ID.
+
+The main concept of the network is that each user uses a network connect microcomputer to host their content, and IPs are found through a distributed DNS: users {A+B} that are following another user {C} will be updated periodically with {C}'s IP (signed with date and time), and so the IP of {C} will be available through {A+B}. Its quite hard to explain, but the basic ID generation and login has been coded.
 
 ## Particle Simulation (Javascript)
 Simulates perfect kinematic collisions of particles in a box. Parameters in the "canvas.js" file can be tweaked as wanted.
