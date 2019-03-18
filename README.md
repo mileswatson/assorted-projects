@@ -1,7 +1,12 @@
 # assorted-projects
 Abandon hope all ye who enter the land of incomplete, uncommented, and undocumented spaghetti code...
+Here are some highlights of my programming history...
 
 Instead of uploading all my code, I have linked to a fantastic online IDE called [repl.it](https://repl.it/).
+
+## My School CS Project
+Can be found on my Github under python-card-game.
+Is the only thing on this list with complete functionality and a GUI.
 
 ## Particle Simulation (Javascript)
 Simulates perfect kinematic collisions of particles in a box. Parameters in the "canvas.js" file can be tweaked as wanted.
@@ -48,10 +53,15 @@ Solves a random travelling salesman problem. Uses my own algorithm that swaps ed
 
 ## TCS-Oxford Computing Challenge mentorship stuff (Assorted)
 Some random stuff I wrote to solve problems in preparation for the BIO. Some of the questions were quite specialised, the solutions may not make much sense on its own.
+
 [Knights Tour Problem in Swift](https://repl.it/@teamproject/swift-knights-tour)
+
 [Wave Simulation Thing](https://repl.it/@teamproject/go-wave-simulation)
+
 [Polynomials](https://repl.it/@teamproject/go-polynomials)
+
 [Heap Optimised Dijkstra's Shortest Path](https://repl.it/@teamproject/go-shortest-paths)
+
 [Above but in python](https://repl.it/@teamproject/py-shortest-paths)
 
 ## BrainFuckSimplified (Python)
@@ -77,6 +87,17 @@ An implimentation of an RSA key generation, encryption, and decryption algorithm
 
 [Its behind you](https://repl.it/@mileswatson/java-crypter)
 
+[Key generation, my first C++ Program](https://repl.it/@mileswatson/java-crypter)
+
+## SignMyFile(Python)
+Random program that uses homemade RSA cryptography to sign a file.
+
+[REPL Link](https://repl.it/@teamproject/SignMyFile)
+
+## Neural Network in Pure (Python)
+Before I knew about OOP and the map function in Python.
+[Try before you buy](https://repl.it/@teamproject/Vanilla-Neural-Network)
+
 ## GCSE Sort/Search Algorithms
 [See them here](https://repl.it/@teamproject/searchSort)
 
@@ -84,6 +105,24 @@ An implimentation of an RSA key generation, encryption, and decryption algorithm
 Not really sure what this was, something about compression, encrypting it, and then hashing it I think.
 
 [Lonk](https://repl.it/@mileswatson/CompressionEncryptionHashing)
+
+## Data Interpreter V2 (Python)
+The second edition of my famous data interpreter. Don't know / want to know what it actually interprets, but it does.
+[No returns](https://repl.it/@mileswatson/Data-Interpreter-V2)
+
+## My Custom Hashing Function
+Practically unbreakable, looking back I see no flaws in this algorithm whatsoever.
+
+[Use this in commercial software if you like lawsuits](https://repl.it/@teamproject/Random-hash-function)
+
+## Bank System
+I cringe looking back at this, it uses a homemade RSA algorithm and can't save the user data.
+
+[Shield your eyes](https://repl.it/@teamproject/BankSystem)
+
+## Q&A
+A very old attempt at understanding Siri/other voice assistants. Attempts to switch possession (my->your).
+[AI is just if statements](https://repl.it/@teamproject/Questions)
 
 ## Game Of Life (Python)
 [Here](https://repl.it/@teamproject/GameOfLife)
