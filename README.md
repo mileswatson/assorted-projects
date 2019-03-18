@@ -138,7 +138,7 @@ A very old attempt at understanding Siri/other voice assistants. Attempts to swi
 [Here](https://repl.it/@teamproject/GameOfLife)
 
 ## Compiler (Python)
-POCCL = Proof Of Concept Compiled Language. Beginning of explanation in a separate repo.
+POCCL = Proof Of Concept Compiled Language. Beginning of explanation in a separate repo. It will compile code to NASM, use the NASM assembler, then link with GCC (might be able to get C interoperability working, fingers crossed).
 
 [Not finished yet, please don't judge.](https://repl.it/@mileswatson/POCCL)
 
