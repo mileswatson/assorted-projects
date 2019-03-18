@@ -16,6 +16,8 @@ The idea is based off the Bitcoin whitepaper's method of generating public IDs: 
 
 The main concept of the network is that each user uses a network connect microcomputer to host their content, and IPs are found through a distributed DNS: users {A+B} that are following another user {C} will be updated periodically with {C}'s IP (signed with date and time), and so the IP of {C} will be available through {A+B}. Its quite hard to explain, but the basic ID generation and login has been coded.
 
+[Here is a snippet of the code so far](https://repl.it/@mileswatson/DSM)
+
 ## Particle Simulation (Javascript)
 Simulates perfect kinematic collisions of particles in a box. Parameters in the "canvas.js" file can be tweaked as wanted.
 
