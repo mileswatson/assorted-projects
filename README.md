@@ -16,7 +16,7 @@ Animates complex functions, as given by the function "f(z)" in "main.py". Parama
 ## Evolution Simulator (Python)
 A library that can be used as a framework to simulate evolution, based entirely on an overarching reference to the work of Charles Darwin. "Finches" live on "Islands" which ".pressure()" the finches, before undergoing ".select()"-ion. 
 
-Finches should be implimented by the user, but I have including the "NeuralNetwork(Finch)" class to represent numpy-based RNNs and a simple "Polynomial(Finch)" class too represent a polynomial.
+Finches should be implimented by the user, but I have including the "NeuralNetwork(Finch)" class to represent numpy-based RNNs and a simple "Polynomial(Finch)" class too represent a polynomial. Sigmoid and Relu non-linear activation functions are available to use by default.
 
 Finches only have two criteria:
 1. They must have a ".react()" function, that takes in a numpy array of inputs, and returns a numpy array of responses.
@@ -25,3 +25,33 @@ Finches only have two criteria:
 User created Islands should override the default ".test()" function, to allow custom training environments. In my example, I created a neural network that learns to play a simplified version of "Snake".
 
 You can try it [here](https://repl.it/@mileswatson/py-galapagos)
+
+## Sharp Learning Kit (C#)
+A neural network library made from scratch in C#. Don't ask me how it works, apparently I didn't know comments existed in 2018.
+
+The limitations are as such:
+1. Network structures must be feedforward.
+2. Sigmoid is the only supported activation function
+3. I don't have a GPU on my laptop, and so this was optimised to use one dimensional arrays instead of multidimensional or jagged arrays. GPU accelerated training is not supported.
+
+[Please don't try it here](https://repl.it/@mileswatson/neural-network-library)
+
+## Compression (Python)
+A simple implimentation of the LZ78 (?) compression algorithm. There wasn't much about this online, I kind of had to make it up as I went along.
+
+I think I have a separate repo explaining this in greater detail? Anyway, it is linked below.
+
+[Lunk](https://repl.it/@mileswatson/lempel-ziv-compression)
+
+
+## CompressionEncryptionHashing
+Not really sure what this was, something about compression, encrypting it, and then hashing it I think.
+
+[Lonk](https://repl.it/@mileswatson/CompressionEncryptionHashing)
+
+## Compiler
+POCCL = Proof Of Concept Compiled Language
+
+[Not finished yet, please don't judge.](https://repl.it/@mileswatson/POCCL)
+
+
