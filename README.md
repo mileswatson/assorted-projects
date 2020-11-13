@@ -27,26 +27,6 @@ User created Islands should override the default ".test()" function, to allow cu
 
 You can try it [here](https://repl.it/@mileswatson/py-galapagos)
 
-## Sharp Learning Kit (C#)
-A neural network library made from scratch in C#. Don't ask me how it works, apparently I didn't know comments existed in 2018.
-
-The limitations are as such:
-1. Network structures must be feedforward.
-2. Sigmoid is the only supported activation function
-3. I don't have a GPU on my laptop, and so this was optimised to use one dimensional arrays instead of multidimensional or jagged arrays. GPU accelerated training is not supported.
-
-[Please don't try it here](https://repl.it/@mileswatson/neural-network-library)
-
-## Compression (Python)
-A simple implimentation of the LZ78 (?) compression algorithm. There wasn't much about this online, I kind of had to make it up as I went along.
-
-I think I have a separate repo explaining this in greater detail? Anyway, it is linked below.
-
-[Lunk](https://repl.it/@mileswatson/lempel-ziv-compression)
-
-## Travelling Salesman (Javascript)
-Solves a random travelling salesman problem. Uses my own algorithm that swaps edges (because something something triangle inequality something something). I later found out that this was the well known 2-opt algorithm.
-
 ## TCS-Oxford Computing Challenge mentorship stuff (Assorted)
 Some random stuff I wrote to solve problems in preparation for the BIO. Some of the questions were quite specialised, the solutions may not make much sense on its own.
 
@@ -83,7 +63,7 @@ An implimentation of an RSA key generation, encryption, and decryption algorithm
 
 [Its behind you](https://repl.it/@mileswatson/java-crypter)
 
-[Key generation, my first C++ Program](https://repl.it/@mileswatson/java-crypter)
+[Key generation, my first C++ Program](https://repl.it/@mileswatson/RSA-Key-Generation)
 
 ## SignMyFile(Python)
 Random program that uses homemade RSA cryptography to sign a file.
